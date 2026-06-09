@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="fifth.css">
+</head>
+<body>
+
+    
+
+    <div id="container">
+        <h1>Password Generator</h1>
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" value="12" min="1">
+        <br><br>
+
+        <input type="checkbox" id="lowercase" checked>
+        <label for="lowercase">Lowercase</label>
+        <br>
+
+        <input type="checkbox" id="uppercase" checked>
+        <label for="uppercase">Uppercase</label>
+        <br>
+
+        <input type="checkbox" id="numbers" checked>
+        <label for="numbers">Numbers</label>
+        <br>
+
+        <input type="checkbox" id="symbols" checked>
+        <label for="symbols">Symbols</label>
+        <br><br>
+
+        <button id="generate" onclick="generate()">
+            Generate Password
+        </button>
+
+        <h3>Generated Password:</h3>
+        <p id="password"></p>
+
+    </div>
+
+    <script src="fifth.js"></script>
+
+</body>
+</html>

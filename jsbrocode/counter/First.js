@@ -12,7 +12,7 @@
 
 // let username;
 // document.getElementById("submit").onclick=function(){
-//     username=document.getElementById("Name").value;
+    // username=document.getElementById("Name").value;
 //     document.getElementById("p1").textContent=`your name is ${username}`;
 // }
 // console.log(Name);

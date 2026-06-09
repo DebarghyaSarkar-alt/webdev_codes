@@ -134,6 +134,15 @@ function convert(){
 
 //rest parameters are used to collect multiple elements into an array
 
+// function sum(...numbers){
+//     let total = 0;
+//     for(let i = 0; i < numbers.length; i++){
+//         total += numbers[i];
+//     }
+//     console.log("The sum is: " + total);
+// }
+// sum(1, 2, 3); //The sum is: 6//ye 1,2,3 ko numbers array me daal dega aur total karega using ... rest operator
 
 
 
+ 
