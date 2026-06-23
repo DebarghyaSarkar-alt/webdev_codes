@@ -146,11 +146,57 @@
 
 
 //constructor:
-function Car(model,year,color){
-    this.model= model;
-    this.year = year;
-    this.color = color;
+// function Car(model,year,color){
+//     this.model= model;
+//     this.year = year;
+//     this.color = color;
 
-}
-const car1 = new Car("braza","2004","yellow");
-console.log(car1.model);
+// }
+// const car1 = new Car("braza","2004","yellow");
+// console.log(car1.model);
+// classes in javascript are similar to objects 
+
+// class Product{
+//     constructor(name,price){
+//         this.name= name;
+//         this.price=price;
+//     }
+//     display(){
+//         console.log(`product:${this.name}`);
+//         console.log(`price:${this.price}`);
+//     }
+// }
+// const obj = new Product("CAR",1999);
+// obj.display();
+// class mathutil{
+//     static PI=3.14;
+//     static getDiameter(r){
+//         console.log(2*r);
+//     }
+//     static getCircumfarence(r){
+//         console.log(2*r*this.PI);
+//     }
+// }
+// console.log(mathutil.PI);
+// mathutil.getDiameter(10);
+// mathutil.getCircumfarence(3);
+
+
+// class user{
+//     static count=0;
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age;
+//         user.count++;
+//     }
+//     static getUsercount(){
+//         console.log(`There are ${user.count} people online`)
+//     }
+// }
+// const obj1=new user("Dipannita",20);
+// const obj2=new user("Debarghya",20);
+// console.log(user.count);
+// user.getUsercount()
+
+
+//inheritance
